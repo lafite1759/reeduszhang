@@ -3,7 +3,8 @@ sudo: false
 language: python
 os:
   - linux
-
+env:
+  - aaa: bbb
 python:
   - 2.7
   - pypy
@@ -15,3 +16,5 @@ script:
   - |
     echo 'hello'
     whoami
+    on:
+        condition: $aaa=bbb 
