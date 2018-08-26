@@ -16,5 +16,3 @@ script:
   - |
     echo 'hello'
     whoami
-    on:
-        condition: $aaa=bbb 
