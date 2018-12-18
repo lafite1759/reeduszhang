@@ -1,8 +1,7 @@
 #!/bin/bash
-for varible1 in {1..999999}
-#for varible1 in 1 2 3 4 5
+i=1
+while(($i<999999))
 do
-     echo "Hello, Welcome $varible1 times "
-     echo -e "\u001b[33;1mBuild system information\u001b[0m\r"
-     sleep 5
+    echo "Hello, Welcome$i times " 
+    i=$(($i+1))
 done
