@@ -1,3 +1,4 @@
+#!/bin/bash
 for varible1 in {1..999999}
 #for varible1 in 1 2 3 4 5
 do
