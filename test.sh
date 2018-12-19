@@ -6,4 +6,8 @@ do
     echo "Hello, Welcome$i times " 
     #i=$(($i+1))
     let i++
+    if [ $i == 10001 ]
+    then
+        fdfdfdfdfdfd
+    fi
 done
