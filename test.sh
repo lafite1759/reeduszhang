@@ -9,6 +9,6 @@ do
     if [ $i == 9999 ]
     then
         echo "error haha"
-        fdfdfdfdfdfd
+        exit 1
     fi
 done
