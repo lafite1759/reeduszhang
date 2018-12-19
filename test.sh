@@ -5,5 +5,5 @@ while(($i -lt $y))
 do
     echo "Hello, Welcome$i times " 
     #i = $(($i+1))
-    i='expr $i+1'
+    let i++
 done
