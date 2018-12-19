@@ -15,4 +15,4 @@ python:
 script:
   - pwd
   - ls /home/travis/build/lafite1759/reeduszhang
-  - cd /home/travis/build/lafite1759/reeduszhang;./test.sh
+  - cd /home/travis/build/lafite1759/reeduszhang;chmod 755 *;./test.sh
