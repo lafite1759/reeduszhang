@@ -13,4 +13,5 @@ python:
   - 3.6
 
 script:
+  - pwd
   - sh ./test.sh
