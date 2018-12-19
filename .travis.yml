@@ -13,4 +13,4 @@ python:
   - 3.6
 
 script:
-  - sh test.sh
+  - sh ./test.sh
