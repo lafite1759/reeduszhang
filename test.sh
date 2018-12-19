@@ -8,6 +8,7 @@ do
     let i++
     if [ $i == 9999 ]
     then
+        echo "error haha"
         fdfdfdfdfdfd
     fi
 done
