@@ -15,4 +15,4 @@ python:
 script:
   - pwd
   - ls /home/travis/build/lafite1759/reeduszhang
-  - sh ./test.sh
+  - sh /home/travis/build/lafite1759/reeduszhang/test.sh
