@@ -6,7 +6,7 @@ do
     echo "Hello, Welcome$i times " 
     #i=$(($i+1))
     let i++
-    if [ $i == 5000 ]
+    if [ $i == 20000 ]
     then
         echo "error haha"
         exit 1
