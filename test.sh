@@ -1,12 +1,12 @@
 #!/bin/bash
 i=1
-y = 999999
+y = 10000
 while(($i -lt $y))
 do
     echo "Hello, Welcome$i times " 
     #i=$(($i+1))
     let i++
-    if [ $i == 10001 ]
+    if [ $i == 9999 ]
     then
         fdfdfdfdfdfd
     fi
