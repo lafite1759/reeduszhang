@@ -1,6 +1,6 @@
 #!/bin/bash
 i=1
-y=100
+y = 999999
 while(($i -lt $y))
 do
     echo "Hello, Welcome$i times " 
