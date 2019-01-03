@@ -16,3 +16,4 @@ script:
   - pwd
   - ls /home/travis/build/lafite1759/reeduszhang
   - cd /home/travis/build/lafite1759/reeduszhang;chmod 755 *;./test.sh
+  - echo 'environment info: ' && env
